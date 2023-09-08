@@ -1,34 +1,74 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Promptopia (ChatGPT Prompt Sharing App)
+
+Share and discover useful and creative prompts for ChatGPT with our Next.js application. Our platform allows you to easily share, copy, and collaborate on prompts. With MongoDB for data storage and Google OAuth for seamless login/signup, getting started is a breeze. Hosted on Vercel for reliability and accessibility.
+
+![ChatGPT Prompt Sharing App](chatgpt-app-screenshot.png)
+
+## Table of Contents
+
+- [Demo](#demo)
+- [Features](#features)
+- [Getting Started](#getting-started)
+- [How to Use](#how-to-use)
+- [Google OAuth](#google-oauth)
+
+## Demo
+
+Try the [ChatGPT Prompt Sharing App](https://prompts.thegauravshukla.me/) live on the web.
+
+## Features
+
+- Share and discover useful and creative prompts for ChatGPT.
+- Copy prompts with a single click for immediate use.
+- Collaborate with the community to generate new ideas.
+- Secure and easy login/signup with Google OAuth.
+- MongoDB for reliable data storage.
+- Hosted on Vercel for seamless accessibility.
 
 ## Getting Started
 
-First, run the development server:
+To run this application locally on your machine, follow these steps:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+1. Clone this repository to your local machine using Git:
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+   ```bash
+   git clone https://github.com/gauravvv-shukla/Share-A-Prompt.git
+   ```
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+2. Install the dependencies:
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+   ```bash
+   cd Share-A-Prompt
+   npm install
+   ```
 
-## Learn More
+3. Set up your environment variables by creating a `.env.local` file with your MongoDB and Google OAuth credentials:
 
-To learn more about Next.js, take a look at the following resources:
+   ```env
+   MONGODB_URI=your_mongodb_uri
+   GOOGLE_CLIENT_ID=your_google_client_id
+   GOOGLE_CLIENT_SECRET=your_google_client_secret
+   ```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+4. Start the development server:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+   ```bash
+   npm run dev
+   ```
 
-## Deploy on Vercel
+5. Open your browser and navigate to [http://localhost:3000](http://localhost:3000) to access the ChatGPT Prompt Sharing App.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## How to Use
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+1. Explore the collection of prompts shared by the community.
+2. Click on a prompt to view its details.
+3. Copy a prompt to your clipboard with a single click for immediate use.
+4. Contribute to the platform by sharing your own creative prompts.
+
+## Google OAuth
+
+Seamlessly login or sign up with Google OAuth for a secure and hassle-free experience. Your Google account credentials are used to create and authenticate your account.
+
+---
+
+Unlock the power of ChatGPT with our Prompt Sharing App.
