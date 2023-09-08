@@ -45,9 +45,13 @@ To run this application locally on your machine, follow these steps:
 3. Set up your environment variables by creating a `.env.local` file with your MongoDB and Google OAuth credentials:
 
    ```env
-   MONGODB_URI=your_mongodb_uri
-   GOOGLE_CLIENT_ID=your_google_client_id
-   GOOGLE_CLIENT_SECRET=your_google_client_secret
+   GOOGLE_CLIENT_ID=
+   GOOGLE_CLIENT_SECRET=
+   MONGODB_DB=
+   MONGODB_URI=
+   NEXTAUTH_URL=
+   NEXTAUTH_URL_INTERNAL=
+   NEXTAUTH_SECRET=
    ```
 
 4. Start the development server:
