@@ -14,7 +14,7 @@ Share and discover useful and creative prompts for ChatGPT with our Next.js appl
 
 ## Demo
 
-Try the [ChatGPT Prompt Sharing App](https://prompts.thegauravshukla.me/) live on the web.
+Try the [ChatGPT Prompt Sharing App](https://prompts.gauravxshukla.me/) live on the web.
 
 ## Features
 
